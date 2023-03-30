@@ -10,6 +10,7 @@ class Students {
   String? email;
   double? weight;
   static String course = "flutter";
+  static const String institute = "luminar";
 
 }
 
@@ -26,6 +27,9 @@ void main(){
   print("email :${std1.email="rayanrahul100@gmail.com"}");
   print("weight :${std1.weight=55.5}");
   print("course : ${Students.course}");
+ print("institute : ${Students.institute}");
+
+
 
   Students std2 = Students();
 
@@ -37,6 +41,7 @@ void main(){
   print("email :${std2.email="hrithin100@gmail.com"}");
   print("weight :${std2.weight=65.5}");
   print("course : ${Students.course}");
+  print("institute : ${Students.institute}");
 
   Students std3 = Students();
 
@@ -48,11 +53,8 @@ void main(){
   print("email :${std3.email="adhul32@gmail.com"}");
   print("weight :${std3.weight=75.5}");
   print("course : ${Students.course}");
+  print("institute : ${Students.institute}");
 
-
-  print(std1.name);
-  print(std2.name);
-  print(std3.name);
 
 
 }
