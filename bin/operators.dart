@@ -54,5 +54,51 @@ void main(){
 
 
 
+  ///logical operator &&  || !(expression)
+  String username = "Admin";
+  String pswd     = "admin@123";
+  int otp         = 70;
+  print(username == "admin" && pswd == "admin@123" && otp == 70);
+  print(username == "Admin" && pswd == "Admin@123" || otp == 70);
+  print(!(otp == 8079));
+
+
+  ///Bitwise operator
+   int i    = 9;    //   1001      1 = true 0 =false
+   int j    = 3;     //  0011
+  /// i & j          =   0001  = 2
+  /// i | j          =   1011  = 11
+  /// i ^ j          =   1011  = 10
+
+  print(i & j);
+  print(i | j);
+  print(i ^ j);
+
+
+
+  ///conditional operator condition ? true statement : false statement;
+  //int age = 2;
+ // var result = (age >= 18) ? "welcome to vote" : false;
+  //print(result);
+
+     int r  = 54;
+     int e  = 76;
+     int h  = 55;
+   var result = (r > e && r > h)
+                ? "greater than r"
+                : (e > h)
+                   ? "greater than e"
+                   : "greater than h" ;
+        print(result);
+
+
+
+  ///conditional operator 2   expr1   ??  exprs2
+
+   String?  data;
+  var out = data?.length  ?? "not a valid data";
+  print(out);
+
+
 
 }
