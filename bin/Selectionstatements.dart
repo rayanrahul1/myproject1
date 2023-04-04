@@ -81,7 +81,7 @@ void main () {
   // }
 
   /// switch case
-  int size = 46;
+  int size = 55;
 
   switch(size){
     case 46 :
